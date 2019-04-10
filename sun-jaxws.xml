@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0"
+	xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" >
+	
+	
+		
+ <endpoint  name="SoapAdageProvider" implementation="soap_web_services.SoapAdageProvider"
+        url-pattern="/soapService" />
+ <endpoint implementation="rest_web_services.AdagesProvider"
+		name="AdagesProvider"  url-pattern="/restService"/>
+		
+</endpoints> 
+
